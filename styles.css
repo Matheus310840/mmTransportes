@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+
+* { /* Configurações Globais */
+    
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    height: 100vh;
+    box-sizing: border-box;
+    background-image: linear-gradient(#9EB384, #CEDEBD);
+    
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    background-color: #9EB384;
+    padding: 1%;
+    align-items: center;
+    /*gap: 0%;*/
+}
+
+.cabecalho_menu {
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Krona One', sans-serif;
+    gap: 50px;
+}
+
+.cabecalho_menu_link {
+    text-align: center;
+}
+
+.cabecalho_menu_link:hover {
+    font-size: 1rem; /*Unidade de medida que acompanha a configuração da pagina*/
+    color: #FFFFFF;
+}
+
+.logo {
+    width: 100px;
+}
+
+.logomarca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Krona One', sans-serif;
+}
+
+.info_orcamento {
+    margin: 5%;
+    padding: 5%;
+    height: 25vh;
+    width: 50vh;
+    display: flex;
+    border-radius: 3%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #CEDEBD;
+    gap: 300px;
+    white-space: nowrap; /* Impede quebra de linha*/
+    font-size: 2.25rem;
+    font-family: 'Dosis', sans-serif;
+}
+
+.principal {
+    display: flex;
+    justify-content: flex-end;
+}
+
+h3 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 2.25rem;
+    
+}
+
+.botao_whatsapp {
+    /*position:fixed;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0%;
+    width:39%;
+    height:27%;
+    bottom:25%;
+    right:20%;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:1.5rem;
+    box-shadow: 2px 2px 2px #888;
+    z-index:1000;
+    text-decoration: none;
+    font-family: 'Krona One', sans-serif;
+}
+
+.botao_whatsapp:hover {
+    width:42%;
+    height:28%;
+    font-size:1.6rem;
+}
+
+.titulo_orcamento {
+    font-size: 2.25rem;
+    font-family: 'Krona One', sans-serif;;
+}
+
+.icone_whats {
+    width:100%;
+    height:100%;
+    bottom:25%;
+    right:20%;
+}
+
+@media (max-width: 1200px) {
+    .botao_whatsapp {
+        font-size:1rem;
+    }
+    
+    .titulo_orcamento {
+        font-size: 1.5rem; 
+    }
+}
