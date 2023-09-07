@@ -130,6 +130,12 @@ h3 {
     .info_orcamento {
         gap: 115px;
     }
+
+    .botao_whatsapp:hover {
+        width:42%;
+        height:28%;
+        font-size:1.2rem;
+    }
 }
 
 @media (max-width: 1366px) { /*Notebook*/
@@ -143,5 +149,11 @@ h3 {
     
     .info_orcamento {
         gap: 200px;
+    }
+
+    .botao_whatsapp:hover {
+        width:42%;
+        height:28%;
+        font-size:1.2rem;
     }
 }
