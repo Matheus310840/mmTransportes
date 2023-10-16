@@ -32,7 +32,7 @@ div { position: absolute; }
 	left: 0px;
 	width: 1440px;
 	height: 2597px;
-	background: #4F709C;
+	background: #F0F0F0;
 }
 
 .container_orcamento {
@@ -54,7 +54,7 @@ div { position: absolute; }
 	text-align: left;
 	font-weight:bolder;
 	letter-spacing: 1px;
-	color:#f5f2f2;
+	color:#050505;
 }
 
 
@@ -69,7 +69,7 @@ div { position: absolute; }
 	font-weight:bolder;
 	text-align: left;
 	letter-spacing: 3px;
-	color:#fcfafa;
+	color:#050505;
 }
 
 #imagem {
@@ -90,7 +90,7 @@ div { position: absolute; }
 	width: 337px;
 	height: 58px;
 	color: #E5D283;
-	background: #eee9e9;
+	background: #555;
 	border: 1px solid #555;
 	border-radius: 10px;
 	text-align: center;
@@ -107,6 +107,7 @@ div { position: absolute; }
 
 .botao_whatsapp{
 	text-decoration: none;
+	color: #F0F0F0;
 }
 
 #icone_btn {
@@ -138,7 +139,7 @@ div { position: absolute; }
 	left: 0px;
 	width: 1440px;
 	height: 70px;
-	background: #E5D283;
+	background: #CD1818;
 }
 
 
