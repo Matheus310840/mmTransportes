@@ -144,7 +144,7 @@ div { position: absolute; }
 
 
 #logo {
-	top: 12px;
+	/*top: 12px;
 	left: 145px;
 	width: 134.8px;
 	height: 57.8px;
@@ -152,7 +152,11 @@ div { position: absolute; }
 	font-family: Inter;
 	font-size: 38px;
 	text-align: left;
-	color:#000000;
+	color:#000000;*/
+	top: 0px;
+	left: 3rem;
+	width: 60px;
+	height: 60px;
 }
 
 #sobre___empresa {
