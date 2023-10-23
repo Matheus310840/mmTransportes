@@ -61,7 +61,7 @@ div { position: absolute; }
 #home_titulo {
 	position: relative;
 	top: 138px;
-	width: 480px;
+	/*width: 480px;*/
 	height: 81px;
 	left: 135px;
 	font-family: Inter;
@@ -69,6 +69,20 @@ div { position: absolute; }
 	font-weight:bolder;
 	text-align: left;
 	letter-spacing: 3px;
+	color:#050505;
+}
+
+#seu_frete {
+	position: relative;
+	top: 350px;
+	/*width: 480px;*/
+	height: 81px;
+	left: 375px;
+	font-family: Inter;
+	font-size: 25px;
+	font-weight:bolder;
+	/*text-align: left;
+	letter-spacing: 3px;*/
 	color:#050505;
 }
 
@@ -85,7 +99,7 @@ div { position: absolute; }
 	align-items: center;
 	justify-content: center;
 	gap: 30px;
-	top: 376px;
+	top: 500px;
 	left: 265px;
 	width: 337px;
 	height: 58px;
